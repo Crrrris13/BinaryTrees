@@ -1,10 +1,10 @@
 import java.util.List;
 import java.io.*;
 
-public class Dictionary {
+public class Main {
     private BST<String, String> bst;
 
-    public Dictionary() {
+    public Main() {
         this.bst = new BST<>();
     }
 
@@ -79,7 +79,7 @@ public class Dictionary {
     }
 
         public static void main(String[] args) {
-        Dictionary dict = new Dictionary();
+        Main dict = new Main();
  
         // Rutas a los archivos (ajustar si es necesario)
         String dictionaryFile = "diccionario.txt";
